@@ -1,0 +1,63 @@
+@charset 'UTF-8';
+
+main {
+    background-image: url('../imagens/ficheiro_000.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin: auto;
+    height: 844px;
+    width: 1500px;
+}
+
+.pisca {
+    display: inline;
+    position: relative;
+    z-index: 10;
+    animation: piscapisca 1s infinite;
+    top: 170px;
+    left: 480px;
+}
+
+@keyframes piscapisca {
+    0% {color: red;}
+    20% {color: red;}
+    40% {color: white;}
+    60% {color: white;}
+    80% {color: red;}
+    100% {color: red;}
+}
+
+.pisca {
+    font-family: var(--fonte-padrao);
+    font-size: 2em;
+    font-weight: bolder;
+    color: red;
+}
+
+.link {
+    display: inline-block;
+    position: relative;
+    z-index: 11;
+    top: 172px;
+    left: 368px;
+}
+
+.link > a {
+    text-decoration: none;
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding: 22px 37px;
+}
+
+article#ord_001 p {
+    font-size: 1.2em;
+    margin-top: 250px;
+    margin-left: 468.5px;
+    max-width: 563px;
+    padding: 10px;
+    background-color: rgb(229, 229, 229);
+    border: 2px solid red;
+    text-align: justify;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+

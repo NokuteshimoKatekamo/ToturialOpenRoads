@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual OpenRoads</title>
+    <link rel="stylesheet" href="../estilo/style_p015.css">
+    <link rel="stylesheet" href="../estilo/fontes.css">
+    <link rel="stylesheet" href="../estilo/style_geral.css">
+    <script>
+        function marcadesmarca(caller) {
+            var checks = document.querySelectorAll('input[type="checkbox"]');
+            for(let i = 0; i < checks.length; i++) {
+                checks[i].checked = checks[i] == caller;
+            }
+        }
+    </script>
+    
+</head>
+<body>
+    <header>
+        <h1>Manual Openroads Designer Connect</h1>
+    </header>
+
+    <nav>
+        <a href="../index.html">Página Inicial</a>
+        <a href="Pagina_014.html">Página Anterior</a>
+    </nav>
+    
+    <main>
+            
+    <nav class="separadores">
+        <a class="titulo" href="pagina_010.html">Home</a>
+        <a class="titulo" href="pagina_011.html">Terrain</a>
+        <a class="titulo" href="pagina_012.html">Geometry</a>
+        <a class="titulo" href="pagina_013.html">Site</a>
+        <a class="titulo" href="pagina_014.html">Corridors</a>
+        <a class="titulo" href="pagina_015.html">Model Detailing</a>
+        <a class="titulo" href="pagina_016.html">Drawing Production</a>
+        <a class="titulo" href="pagina_017.html">Drawing</a>
+        <a class="titulo" href="pagina_018.html">Utilities</a>
+        <a class="titulo" href="pagina_019.html">Collaborate</a>
+        <a class="titulo" href="pagina_020.html">View</a>
+    </nav>
+
+        <div class="ord_001">
+            <P>Vamos correr as ferramentas mais utilizadas no <strong>Workflow</strong> do <strong>OpenRoads</strong>. Para isso vai passando com o rato sobre os vários separadores ou grupos de ferramentas que aparecerem <strong>envolvidos a vermelho</strong>.</P>
+        </div>
+        <div class="centro">
+            <div>
+                <input class="interruptor" id="imagem_00" type="checkbox" onclick="marcadesmarca(this)">
+                    <div class="wrapper">
+                        <label for="imagem_00">
+                            <p class="caixa" id="caixa_00"> </p>
+                        </label>
+                        <div id="conteudo_00" class="conteudo">
+                            <img src="../imagens/home_atributes.png" alt="Atributos">
+                            <div id="n1">
+                                <img  id="balao01" src="../imagens/balao_004.png" alt="Speech ballon">
+                                <p id="nota01">Ativa as preferencias do template ao desenhar um elemento</p>
+                            </div>
+                            <div id="n2">
+                                <img id="balao02" src="../imagens/balao_004.png" alt="Speech ballon">
+                                <p id="nota02">Mostra a lista de <strong>element template</strong> criados e abre o gestor de templates</p>
+                            </div>
+                            <div id="n3">
+                                <img id="balao03" src="../imagens/balao_006.png" alt="Speech ballon">
+                                <p id="nota03">Nivel que está activo no momento, pode ou não coincidir com o nivel do template activo</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div>
+                <input class="interruptor" id="imagem_01" type="checkbox" onclick="marcadesmarca(this)">
+                    <div class="wrapper">
+                        <label for="imagem_01">
+                            <p class="caixa" id="caixa_01"> </p>
+                        </label>
+                        <div id="conteudo_01" class="conteudo">
+                            <img src="../imagens/home_primary.png" alt="Primários">
+                        </div>
+                    </div>
+            </div>
+    </main>
+    
+    <footer>
+        <p>Site criado por <a href="https://github.com/NokuteshimoKatekamo" target="_blank"><strong>Nokuteshimo Katekamo</strong></a> para quem quer aprender <strong>OpenRoads</strong></p>
+    </footer>
+</body>
+</html>

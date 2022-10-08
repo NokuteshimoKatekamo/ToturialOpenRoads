@@ -1,0 +1,76 @@
+@charset 'UTF-8';
+
+main {
+    background-image: url('../imagens/inicio_001.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin: auto;
+    height: 844px;
+    width: 1500px;
+}
+
+.pisca {
+    position: relative;
+    z-index: 10;
+    animation: piscapisca 1s infinite;
+    top: 47px;
+    left: 265px;
+}
+
+@keyframes piscapisca {
+    0% {color: red;}
+    20% {color: red;}
+    40% {color: white;}
+    60% {color: white;}
+    80% {color: red;}
+    100% {color: red;}
+}
+
+.pisca {
+    display: inline-block;
+    width: 40px;
+    font-family: var(--fonte-padrao);
+    font-size: 2em;
+    font-weight: bolder;
+    color: red;
+}
+
+.link {
+    width: 50px;
+    position: relative;
+    z-index: 11;
+    top: 20px;
+    left: -430px;
+}
+
+.link > a {
+    text-decoration: none;
+    border: 1px solid rgb(0, 0, 0, 0);
+    padding-right: 90px;
+}
+
+article#ord_001 > div > p {
+    font-size: 1.2em;
+    margin-top: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 20px;
+    background-color: rgb(229, 229, 229);
+    border: 2px solid red;
+    text-align: justify;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+article#ord_001 > p {
+    font-size: 1.2em;
+    margin-top: 50px;
+    margin-left: 440px;
+    margin-right: 440px;
+    padding: 20px;
+    background-color: rgb(229, 229, 229);
+    border: 2px solid red;
+    text-align: justify;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}

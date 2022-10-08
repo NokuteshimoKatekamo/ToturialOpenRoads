@@ -1,0 +1,193 @@
+@charset 'UTF-8';
+
+main {
+    background-image: url('../imagens/Layout_002.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin: auto;
+    height: 844px;
+    width: 1500px;
+}
+
+.separadores {
+    position: relative;
+    background-color: transparent;
+    left: -374px;
+    top: 16px;
+}
+
+ .titulo {
+    color: transparent;
+    font-size: .75em;
+    padding-right: 11px;
+}
+
+.titulo:hover {
+    color: transparent;
+}
+
+.ord_001 {
+    position: relative;
+    display: inline-block;
+    z-index: 12;
+    top: 650px;
+    left: 400px;
+    max-width: 683px;
+    font-size: 1.2em;
+    padding: 10px;
+    background-color: rgb(229, 229, 229);
+    border: 2px solid red;
+    text-align: justify;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.4);    
+}
+
+.centro {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.interruptor {
+    display: none;
+}
+
+.caixa {
+    cursor: pointer;
+    position: relative;
+    z-index: 10px;
+    border: 1px solid transparent;
+}
+
+#caixa_00 {
+    top: -57px;
+    left: -536px;
+    width: 192px;
+    height: 73px;
+}
+
+#caixa_01 {
+    top: -132px;
+    left: -285px;
+    width: 310px;
+    height: 73px;
+}
+
+#caixa_02 {
+    top: -207px;
+    left: 31px;
+    width: 317px;
+    height: 73px;
+}
+
+#caixa_03 {
+    top: -282px;
+    left: 298px;
+    width: 212px;
+    height: 73px;
+}
+
+.caixa:hover {
+    border: 1px solid red;
+}
+
+.conteudo {
+    position: absolute;
+    scale: 1.3;
+    display: none;
+}
+
+#conteudo_00 {
+    margin-top: 260px;
+    padding: 10px;
+}
+
+#conteudo_01 {
+    margin-top: 185px;
+    margin-left: 90px;
+    padding: 10px;
+}
+
+#conteudo_02 {
+    margin-top: 110px;
+    margin-left: 87px;
+    padding: 10px;
+}
+
+#n1 {
+    z-index: 10;
+    top: -165px;
+    left: -244px;
+    width: 200px;
+    text-align: justify;
+    color: black;
+    position: relative;
+}
+
+#balao01 {
+    position: absolute;
+    scale: 0.3;
+    z-index: 9;
+    top: -165px;
+    left: -476px;
+}
+
+#nota01 {
+    position: absolute;
+    z-index: 11;
+}
+
+#n2 {
+    z-index: 10;
+    top: -165px;
+    left: -15px;
+    width: 200px;
+    text-align: justify;
+    color: black;
+    position: relative;
+}
+
+#balao02 {
+    position: absolute;
+    scale: 0.3;
+    z-index: 9;
+    left: -402px;
+    top: -165px;
+    transform: scaleX(-1);
+}
+
+#nota02 {
+    position: absolute;
+    z-index: 11;
+}
+
+#n3 {
+    z-index: 10;
+    top: -165px;
+    left: 240px;
+    width: 250px;
+    text-align: justify;
+    color: black;
+    position: relative;    
+}
+
+#balao03 {
+    position: absolute;
+    scale: 0.3;
+    z-index: 9;
+    left: -402px;
+    top: -165px;
+    transform: scaleX(-1);
+}
+
+#nota03 {
+    position: absolute;
+    z-index: 11;
+}
+
+.interruptor:checked + .wrapper .caixa {
+    border: 1px solid rgb(228, 33, 33);
+}
+
+.interruptor:checked + .wrapper .conteudo {
+    display: block;
+}
