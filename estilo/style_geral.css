@@ -21,6 +21,14 @@ body > header > h1 {
     font-size: 3em;
 }
 
+main {
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin: auto;
+    height: 844px;
+    width: 1500px;
+}
+
 nav {
     max-width: 1500px;
     text-align: center;

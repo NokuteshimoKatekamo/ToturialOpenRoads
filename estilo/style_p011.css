@@ -2,11 +2,6 @@
 
 main {
     background-image: url('../imagens/Layout_001.png');
-    background-position: center top;
-    background-repeat: no-repeat;
-    margin: auto;
-    height: 844px;
-    width: 1500px;
 }
 
 .separadores {
@@ -104,20 +99,18 @@ main {
 }
 
 #conteudo_00 {
-    margin-top: 260px;
-    padding: 10px;
+    margin-top: 223px;
+    margin-left: 57px;
 }
 
 #conteudo_01 {
-    margin-top: 185px;
-    margin-left: 90px;
-    padding: 10px;
+    margin-top: 148px;
+    margin-left: 10px;
 }
 
 #conteudo_02 {
-    margin-top: 110px;
-    margin-left: 87px;
-    padding: 10px;
+    margin-top: 72px;
+    margin-left: -9px;
 }
 
 #n1 {

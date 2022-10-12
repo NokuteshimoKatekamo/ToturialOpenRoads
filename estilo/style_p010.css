@@ -2,11 +2,6 @@
 
 main {
     background-image: url('../imagens/Layout_000.png');
-    background-position: center top;
-    background-repeat: no-repeat;
-    margin: auto;
-    height: 844px;
-    width: 1500px;
 }
 
 .separadores {
@@ -104,7 +99,8 @@ main {
 }
 
 #conteudo_00 {
-    margin-top: 260px;
+    margin-top: 150px;
+    margin-left: -15px;
     padding: 10px;
 }
 
@@ -123,7 +119,7 @@ main {
 #n1 {
     z-index: 10;
     top: -165px;
-    left: -244px;
+    left: -264px;
     width: 200px;
     text-align: justify;
     color: black;
@@ -138,7 +134,7 @@ main {
     left: -476px;
 }
 
-#nota01 {
+.notas {
     position: absolute;
     z-index: 11;
 }
@@ -146,7 +142,7 @@ main {
 #n2 {
     z-index: 10;
     top: -165px;
-    left: -15px;
+    left: -25px;
     width: 200px;
     text-align: justify;
     color: black;
@@ -160,11 +156,6 @@ main {
     left: -402px;
     top: -165px;
     transform: scaleX(-1);
-}
-
-#nota02 {
-    position: absolute;
-    z-index: 11;
 }
 
 #n3 {
@@ -186,11 +177,100 @@ main {
     transform: scaleX(-1);
 }
 
-#nota03 {
-    position: absolute;
-    z-index: 11;
+#n4 {
+    z-index: 10;
+    top: -99px;
+    left: -359px;
+    width: 300px;
+    text-align: justify;
+    color: black;
+    position: relative;    
 }
 
+#balao04 {
+    position: absolute;
+    scale: 0.3;
+    z-index: 9;
+    left: -564px;
+    top: -167px;
+    transform: scaleY(-1);
+}
+
+#n5 {
+    z-index: 10;
+    top: 21px;
+    left: -227px;
+    width: 350px;
+    text-align: justify;
+    color: black;
+    position: relative;    
+}
+
+#balao05 {
+    position: absolute;
+    scale: 0.3;
+    z-index: 9;
+    left: -545px;
+    top: -193px;
+    transform: scaleY(-1);
+}
+
+#n6 {
+    z-index: 10;
+    top: 95px;
+    left: -160px;
+    width: 350px;
+    text-align: justify;
+    color: black;
+    position: relative;    
+}
+
+#balao06 {
+    position: absolute;
+    scale: 0.3;
+    z-index: 9;
+    left: -927px;
+    top: -444px;
+    transform: scaleY(-1);
+}
+
+#n7 {
+    z-index: 10;
+    top: 20px;
+    left: 224px;
+    width: 360px;
+    text-align: justify;
+    color: black;
+    position: relative;    
+}
+
+#balao07 {
+    position: absolute;
+    scale: 0.3;
+    z-index: 9;
+    left: -501px;
+    top: -192px;
+    transform: scale(-1, -1);
+}
+
+#n8 {
+    z-index: 10;
+    top: -108px;
+    left: 390px;
+    width: 350px;
+    text-align: justify;
+    color: black;
+    position: relative;    
+}
+
+#balao08 {
+    position: absolute;
+    scale: 0.36;
+    z-index: 9;
+    left: -505px;
+    top: -159px;
+    transform: scale(-1, -1);
+}
 .interruptor:checked + .wrapper .caixa {
     border: 1px solid rgb(228, 33, 33);
 }

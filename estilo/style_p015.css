@@ -2,11 +2,6 @@
 
 main {
     background-image: url('../imagens/Layout_005.png');
-    background-position: center top;
-    background-repeat: no-repeat;
-    margin: auto;
-    height: 844px;
-    width: 1500px;
 }
 
 .separadores {

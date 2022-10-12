@@ -2,11 +2,6 @@
 
 main {
     background-image: url('../imagens/Layout_003.png');
-    background-position: center top;
-    background-repeat: no-repeat;
-    margin: auto;
-    height: 844px;
-    width: 1500px;
 }
 
 .separadores {
@@ -130,7 +125,7 @@ main {
 #n1 {
     z-index: 10;
     top: -165px;
-    left: -244px;
+    left: -264px;
     width: 200px;
     text-align: justify;
     color: black;
@@ -142,7 +137,7 @@ main {
     scale: 0.3;
     z-index: 9;
     top: -165px;
-    left: -476px;
+    left: -497px;
 }
 
 #nota01 {
