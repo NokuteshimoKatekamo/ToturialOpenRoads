@@ -271,6 +271,62 @@ main {
     top: -159px;
     transform: scale(-1, -1);
 }
+
+#n011 {
+    z-index: 10;
+    top: -78px;
+    left: -250px;
+    width: 155px;
+    text-align: justify;
+    color: black;
+    position: relative;    
+}
+
+#balao011 {
+    position: absolute;
+    scale: 0.36;
+    z-index: 9;
+    left: -741px;
+    top: -169px;
+}
+
+#n012 {
+    z-index: 10;
+    top: -200px;
+    left: -200px;
+    width: 270px;
+    text-align: justify;
+    color: black;
+    position: relative;    
+}
+
+#balao012 {
+    position: absolute;
+    scale: 0.36;
+    z-index: 9;
+    left: -435px;
+    top: -152px;
+}
+#n013 {
+    z-index: 10;
+    top: -200px;
+    left: -200px;
+    width: 270px;
+    text-align: justify;
+    color: red;
+    position: relative;    
+}
+
+#balao013 {
+    position: absolute;
+    scale: 0.36;
+    z-index: 9;
+    left: -435px;
+    top: -152px;
+    transform: scaleX(-1);
+}
+
+
 .interruptor:checked + .wrapper .caixa {
     border: 1px solid rgb(228, 33, 33);
 }
