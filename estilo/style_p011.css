@@ -21,22 +21,6 @@ main {
     color: transparent;
 }
 
-.ord_001 {
-    position: relative;
-    display: inline-block;
-    z-index: 12;
-    top: 650px;
-    left: 400px;
-    max-width: 683px;
-    font-size: 1.2em;
-    padding: 10px;
-    background-color: rgb(229, 229, 229);
-    border: 2px solid red;
-    text-align: justify;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.4);    
-}
-
 .centro {
     max-width: 400px;
     margin: 0 auto;
@@ -115,9 +99,9 @@ main {
 
 #n1 {
     z-index: 10;
-    top: -165px;
-    left: -244px;
-    width: 200px;
+    top: -190px;
+    left: -190px;
+    width: 210px;
     text-align: justify;
     color: black;
     position: relative;
@@ -125,22 +109,22 @@ main {
 
 #balao01 {
     position: absolute;
-    scale: 0.3;
+    scale: 0.33;
     z-index: 9;
-    top: -165px;
+    top: -155px;
     left: -476px;
 }
 
-#nota01 {
+#notas {
     position: absolute;
     z-index: 11;
 }
 
 #n2 {
     z-index: 10;
-    top: -165px;
-    left: -15px;
-    width: 200px;
+    top: -69px;
+    left: -297px;
+    width: 230px;
     text-align: justify;
     color: black;
     position: relative;
@@ -148,23 +132,17 @@ main {
 
 #balao02 {
     position: absolute;
-    scale: 0.3;
+    scale: 0.31;
     z-index: 9;
-    left: -402px;
-    top: -165px;
-    transform: scaleX(-1);
-}
-
-#nota02 {
-    position: absolute;
-    z-index: 11;
+    left: -435px;
+    top: -159px;
 }
 
 #n3 {
     z-index: 10;
-    top: -165px;
-    left: 240px;
-    width: 250px;
+    top: 32px;
+    left: -169px;
+    width: 180px;
     text-align: justify;
     color: black;
     position: relative;    
@@ -172,16 +150,11 @@ main {
 
 #balao03 {
     position: absolute;
-    scale: 0.3;
+    scale: 0.32;
     z-index: 9;
-    left: -402px;
-    top: -165px;
-    transform: scaleX(-1);
-}
-
-#nota03 {
-    position: absolute;
-    z-index: 11;
+    left: -734px;
+    top: -194px;
+    transform: scale(1, -1);
 }
 
 .interruptor:checked + .wrapper .caixa {

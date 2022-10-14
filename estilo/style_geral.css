@@ -53,6 +53,22 @@ nav a:hover {
     font-weight: bold;
 }
 
+.ord_001 {
+    position: relative;
+    display: inline-block;
+    z-index: 12;
+    top: 650px;
+    left: 400px;
+    max-width: 683px;
+    font-size: 1.2em;
+    padding: 10px;
+    background-color: rgb(229, 229, 229);
+    border: 2px solid red;
+    text-align: justify;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.4);    
+}
+
 footer {
     max-width: 1500px;
     background-color: #0072c6;

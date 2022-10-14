@@ -20,7 +20,7 @@ main {
 .titulo:hover {
     color: transparent;
 }
-
+/*
 .ord_001 {
     position: relative;
     display: inline-block;
@@ -36,7 +36,7 @@ main {
     border-radius: 5px;
     box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.4);    
 }
-
+*/
 .centro {
     max-width: 400px;
     margin: 0 auto;
@@ -307,6 +307,7 @@ main {
     left: -435px;
     top: -152px;
 }
+
 #n013 {
     z-index: 10;
     top: -200px;
@@ -326,6 +327,24 @@ main {
     transform: scaleX(-1);
 }
 
+#n014 {
+    z-index: 10;
+    top: -200px;
+    left: -200px;
+    width: 270px;
+    text-align: justify;
+    color: red;
+    position: relative;    
+}
+
+#balao014 {
+    position: absolute;
+    scale: 0.36;
+    z-index: 9;
+    left: -435px;
+    top: -152px;
+    transform: scaleX(-1);
+}
 
 .interruptor:checked + .wrapper .caixa {
     border: 1px solid rgb(228, 33, 33);
